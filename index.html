@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Premium Quality & Tradition</title>
     <link rel="stylesheet" href="style.css" href="text.css">
     <meta name="keywords" content="HTML.CSS,XML,JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115167898-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-115167898-2');
+</script>
 
 </head>
 
@@ -96,42 +105,40 @@
             </div>
         </div>
     </section>
-
-
     <div class="end">
         <div class="row">
-            <h2 class="tex">Contact Us</h2>     
+            <h2 class="tex">Contact Us</h2>
 
 
-          <section class="rosa">
-            <div class="bot dK">
-                <form class="form">
-                    <input class="namn" type="text" placeholder="FullName">
-                    <br>
-                    <br>
-                    <input class="namn" type="text" placeholder="Email">
-                    <br>
-                    <br>
-                    <textarea name id cols="25" rows="8" placeholder="text"></textarea>
-                    <div class="btn">SEND</div>
-                 </form>
-            </div>
-            <div class="dK">
-                <div id="map">
-            <script>
-                function initMap() {
-                    var location = { lat: 55.752023, lng: 37.617499 };
-                    var map = new google.maps.Map(document.getElementById("map"), {
-                        zoom: 14,
-                        center: location
-                    });
-                }
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyBtaO3elN-bHjb2yxyOitmByFuTPTIJBhE&callback=initMap">
-            </script>
-            </div>
-            </div>
-        </section>
+            <section class="rosa">
+                <div class="dK">
+                    <form class="form">
+                        <input class="namn" type="text" placeholder="FullName">
+                        <br>
+                        <br>
+                        <input class="namn" type="text" placeholder="Email">
+                        <br>
+                        <br>
+                        <textarea name id cols="25" rows="8" placeholder="text"></textarea>
+                        <div class="btn">SEND</div>
+                    </form>
+                </div>
+                <div class="dK">
+                    <div id="map">
+                        <script>
+                            function initMap() {
+                                var location = { lat: 55.752023, lng: 37.617499 };
+                                var map = new google.maps.Map(document.getElementById("map"), {
+                                    zoom: 14,
+                                    center: location
+                                });
+                            }
+                        </script>
+                        <script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyBtaO3elN-bHjb2yxyOitmByFuTPTIJBhE&callback=initMap">
+                        </script>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 
